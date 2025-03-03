@@ -22,8 +22,7 @@ Usando Tailwind CSS, haz que al pasar el ratón por encima del botón se inviert
 ## Resumen clases CSS de ejercicios anteriores
 
 
-```markdown
-| **Clase CSS**                          | **Descripción**                                                                                         |
+| **Clase CSS**                          |**Descripción**                                                                                         |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------|
 | `bg-gray-950`                          | Establece un color de fondo gris muy oscuro (casi negro).                                                |
 | `font-[Inter]`                         | Aplica la fuente "Inter".                                                                                 |
@@ -64,6 +63,3 @@ Usando Tailwind CSS, haz que al pasar el ratón por encima del botón se inviert
 | `md:p-8`                               | En pantallas medianas y más grandes, aplica un padding de 2rem (32px) a todos los lados del contenedor.  |
 | `md:items-center`                      | En pantallas medianas y más grandes, centra los elementos hijos en el eje transversal del flex.         |
 | `md:p-2`                               | En pantallas medianas y más grandes, aplica un padding de 0.5rem (8px) a todos los lados.               |
-```
-
-Puedes copiar y pegar este código en tu archivo Markdown. Si necesitas algo más, ¡avísame!
