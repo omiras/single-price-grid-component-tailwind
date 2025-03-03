@@ -4,13 +4,19 @@ Completa este ejercicio de clase ahora usando la biblioteca CSS Tailwind
 
 ## Iteración 1
 
+## Iteración 1
+
 - Abre el index.html con Live Server 
 - Si quieres puedes instalar [este plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) para que te aparezcan las clases CSS disponibles
 - Descomenta el tag _link_ para cargar Tailwind
-- Verás que ya hay dos colores personalizados añadidos
-- Puedes usar los colores del diseño o _jugar_ con los colores que trae Tailwind
+- Puedes usar los colores del diseño o _jugar_ con los [colores que trae Tailwind](https://tailwindcss.com/docs/colors) (para los grises puede estar bien)
 - ¿Cómo establezco que el font-family es Karla? Puedes hacerlo con CSS normal o bien usando Tailwind - [ayuda](https://tailwindcss.com/docs/font-family). También se puede añadir en la [directiva @theme](https://tailwindcss.com/docs/adding-custom-styles#customizing-your-theme)
+- Una forma muy fácil de limitar cuanto crece un contenedor es usar max-width que coincida con el viewport de la mayoría de móviles - [ayuda](https://tailwindcss.com/docs/max-width#using-the-container-scale)
 - Implementa primero la versión móvil y no te preocupes por las _media queries_
+
+### Consejo 
+
+El plugin va muy bien para saber que hace cada clase CSS. Puedes también buscar información en la documentación oficial de tailwind. Por ejemplo, imagina que queremos poner border top radius. Usamos el buscador ![border](https://oscarm.tinytake.com/media/1734158?filename=1740999249385_TinyTake03-03-2025-11-53-00_638765960479908468.png&sub_type=thumbnail_preview&type=attachment&width=799&height=613)
 
 ## Iteración 2
 
