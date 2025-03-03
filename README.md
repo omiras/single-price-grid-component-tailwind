@@ -7,6 +7,7 @@ Completa este ejercicio de clase ahora usando la biblioteca CSS Tailwind
 - Abre el index.html con Live Server 
 - Si quieres puedes instalar [este plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) para que te aparezcan las clases CSS disponibles
 - Descomenta el tag _link_ para cargar Tailwind
+- Verás que ya hay dos colores personalizados añadidos
 - Puedes usar los colores del diseño o _jugar_ con los colores que trae Tailwind
 - ¿Cómo establezco que el font-family es Karla? Puedes hacerlo con CSS normal o bien usando Tailwind - [ayuda](https://tailwindcss.com/docs/font-family). También se puede añadir en la [directiva @theme](https://tailwindcss.com/docs/adding-custom-styles#customizing-your-theme)
 - Implementa primero la versión móvil y no te preocupes por las _media queries_
