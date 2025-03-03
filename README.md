@@ -11,7 +11,8 @@ Completa este ejercicio de clase ahora usando la biblioteca CSS Tailwind
 - Descomenta el tag _link_ para cargar Tailwind
 - Puedes usar los colores del diseño o _jugar_ con los [colores que trae Tailwind](https://tailwindcss.com/docs/colors) (para los grises puede estar bien)
 - ¿Cómo establezco que el font-family es Karla? Puedes hacerlo con CSS normal o bien usando Tailwind - [ayuda](https://tailwindcss.com/docs/font-family). También se puede añadir en la [directiva @theme](https://tailwindcss.com/docs/adding-custom-styles#customizing-your-theme)
-- Una forma muy fácil de limitar cuanto crece un contenedor es usar max-width que coincida con el viewport de la mayoría de móviles - [ayuda](https://tailwindcss.com/docs/max-width#using-the-container-scale)
+- Una forma muy fácil de limitar cuanto crece un contenedor es usar max-width que coincida con el viewport de la mayoría de móviles. Úsalo en el DIV que encapsula todo el componente (el primer DIV hijo del body) - [ayuda](https://tailwindcss.com/docs/max-width#using-the-container-scale)
+- Para separar elementos entre si puedes usar un [flex en dirección columna](https://tailwindcss.com/docs/flex-direction#column) o la clase de utilidad [space-y](https://tailwindcss.com/docs/margin#adding-space-between-children)
 - Implementa primero la versión móvil y no te preocupes por las _media queries_
 
 ### Consejo 
