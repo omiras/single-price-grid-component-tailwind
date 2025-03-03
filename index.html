@@ -19,20 +19,18 @@
       --color-primary-cyan: hsl(179, 62%, 43%);
       --color-primary-bright-yellow: hsl(71, 73%, 54%);
       --color-primary-cyan-semi-transparent: hsla(179, 62%, 43%, 0.7);
+
+      --font-display: "Karla";
+      
       
     }
   </style>
 
-  <style>
-    body {
-      font-family: "Karla";
-    }
-  </style>
 
 </head>
-<body class="bg-slate-300 h-screen flex items-center justify-center">
-  <div class="max-w-xs">
-    <div class="bg-white p-8 space-y-6 rounded-t-md">
+<body class="bg-slate-300 h-screen flex items-center justify-center font-display">
+  <div class="max-w-xs lg:grid lg:grid-cols-2 lg:max-w-3xl">
+    <div class="bg-white p-8 space-y-6 rounded-t-md lg:col-span-2">
       <h1 class="text-primary-cyan font-bold text-2xl ">Join our community</h1>
       <div class="text-primary-bright-yellow font-bold">30-day, hassle-free money back guarantee</div>
       <div class="text-gray-600 leading-7">
@@ -40,13 +38,13 @@
         Perfect for any developers who are serious about honing their skills.
       </div>
     </div>
-    <div class="bg-primary-cyan text-white p-8">
-      <h2 class="text-xl font-semibold mb-4">Monthly Subscription</h2>
+    <div class="bg-primary-cyan text-white p-8 lg:rounded-bl-md">
+      <h2 class="text-xl font-semibold mb-4 ">Monthly Subscription</h2>
       <div class="flex items-center gap-3" ><span class="text-3xl font-bold">&dollar;29</span> <span class="text-gray-300">per month</span></div>
       <div class="mt-1">Full access for less than &dollar;1 a day</div>
-      <div><button class="bg-primary-bright-yellow w-full text-center py-4 font-bold rounded-sm shadow-md mt-8 hover:bg-yellow-400">Sign Up</button></div>
+      <div><button class="bg-primary-bright-yellow w-full text-center py-4 font-bold rounded-sm shadow-md mt-8 hover:bg-yellow-500">Sign Up</button></div>
     </div>
-    <div class="bg-primary-cyan-semi-transparent p-8 rounded-b-sm">
+    <div class="bg-primary-cyan-semi-transparent p-8 rounded-b-md lg:rounded-bl-none ">
       <h2 class="text-white text-xl mb-4">Why Us</h2>
       <ul class="text-gray-300">
         <li>Tutorials by industry experts</li>
